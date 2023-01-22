@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Mental Health Resource</title>
+    
+        <title>Student Mental Health Resource</title>
+        <link rel="stylesheet" href="app.css">
+    
+      
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <a href="#resources" target="_blank">Resources</a>
+        <a href="#about" target="_blank">About</a>
+        <a href="#contact" target="_blank">Contact</a>
+      </nav>
+    </header>
+
+    <div id="resources">
+      <h1 style="color:rgb(17, 38, 24);"><u>Resources<u></h1>
+       
+      <h2>Here are some resources to help support your mental health:</h2>
+      <ul>
+        <li class="list-item"><a href="https://bounceback.cmha.ca/bounceback-youth-quiz/?gclid=Cj0KCQiAt66eBhCnARIsAKf3ZNGnLL5Bj9woO9h5k1EXuTQX_zIGa_gI1sshNN-vIn4UQaVXWcJT58UaArnuEALw_wcB">bounceback</a></li>
+        
+        <li><a href="https://smho-smso.ca/">School Mental Health Ontario</a></li>
+       
+        <li><a href="https://mentalhealth.utoronto.ca/#:~:text=You%20can%20access%20U%20of,%2D416%2D380%2D6578." target="_blank">Mental Health Toronto</a></li>
+      </ul>
+    </div>
+    <section id="about">
+        <h1 style="color:rgb(0, 238, 255);"><u>About</u></h1>
+        <h3>This website was created to provide students with access to mental health resources.</h3>
+      </section>
+
+    <section id="contact">
+        <h1 style="color:rgba(115, 8, 228, 0.873);">Contact</h1>
+        <p>If you have any questions or feedback, please contact us at:</p>
+        <ul>
+          <li>Email: contact@studentmentalhealth.com</li>
+          <li>Phone: 555-555-5555</li>
+        </ul>
+      </section>
+    
+
+   
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Mental Health Resource</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <section id="students">
+      <h1 >Students who can vouch for our wonderful experience</h1>
+      <ul id="student-list">
+        <!-- Student data will be inserted here -->
+      </ul>
+    </section>
+
+    <script>
+      // Sample data
+      var data = [
+        {
+          "id": 1,
+          "name": "Alice Smith",
+          "age": 20,
+          "gender": "Female",
+          "college": "University of California, Los Angeles",
+          "major": "Psychology",
+          "concerns": ["Anxiety", "Depression"]
+        },
+        {
+          "id": 2,
+          "name": "Bob Johnson",
+          "age": 22,
+          "gender": "Male",
+          "college": "Stanford University",
+          "major": "Computer Science",
+          "concerns": ["Stress", "Insomnia"]
+        },
+        // ...
+      ];
+
+      // Get the student list element
+      var studentList = document.getElementById("student-list");
+
+      // Loop through the data and create a list item for each student
+      for (var i = 0; i < data.length; i++) {
+        var student = data[i];
+        var studentItem = document.createElement("li");
+        studentItem.innerHTML = student.name + " - " + student.college;
+        studentList.appendChild(studentItem);
+      }
+    </script>
+  </body>
+</html>
+
+    
+  </body>
+  <footer margin-bottom 0.0 >
+    
+    <p>Copyright © 2022 Student Mental Health Resource</p>
+  </footer>
+</html>
